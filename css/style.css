@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/* UTILITIES */
+
+.font-1 {
+  font-size: 3rem;
+}
+.font-2 {
+  font-size: 1.5rem;
+}
+.font-3 {
+  font-size: 1rem;
+}
+
+.marginb-1 {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEAD/HEADING */
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 3rem;
+}
+
+.heading .f-a1 {
+  text-decoration: none;
+  background: #e90000;
+  color: #f3f3f3;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.heading .f-a1:hover {
+  background: #ce0000;
+}
+.h {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: ;
+  color: #e90000;
+  font-size: 35px;
+}
+
+/* HEAD/f-SHOWCASE */
+.f-showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 7rem;
+  color: #f3f3f3;
+}
+
+.f-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* HEAD/STYLING */
+.f-p {
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+
+.f-sp {
+  font-size: 3rem;
+}
+
+.f-input {
+  width: 35%;
+  padding: 1.2rem;
+  font-size: 1rem;
+  margin-right: 0.1rem;
+}
+.f-btn {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 1.2rem;
+  background: #e90000;
+  color: #f3f3f3;
+}
+.f-btn:hover {
+  background: #ce0000;
+}
+
+/* BACKGROUND IMAGE/BODY */
+#head {
+  background: url(../img/First\ section\ Background.jpg) no-repeat center/cover;
+  height: 100vh;
+}
+
+.main-h {
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 100vh;
+}
+
+/* SECTION-1 IMAGE/INFO */
+#sections {
+}
+
+.sec-1 {
+  display: flex;
+  flex-direction: row;
+  color: #f3f3f3;
+  height: 100vh;
+  border-top: 4px solid darkgrey;
+  background: #070000;
+}
+
+.f-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #070000;
+  flex: 1;
+}
+
+.f-img {
+  margin: auto;
+  flex: 1;
+  padding: 0rem;
+  height: 70%;
+  background: url(../img/TV.png) no-repeat center/cover;
+}
+
+.f-img img {
+  height: 50%;
+  width: 50%;
+}
+
+/* SECTION-2 */
+.sec-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #f3f3f3;
+  height: 100vh;
+  border-top: 4px solid red;
+  background: #070000;
+}
+
+.s-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #070000;
+  flex: 1;
+}
+
+.s-img {
+  flex: 1;
+  background: url(../img/SHOWS.jpg) no-repeat center center/cover;
+  /* max-width: 5px; */
+  height: 50%;
+  margin: auto;
+}
+
+/* SECTION-3 */
+.sec-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 30vh;
+  background: #070000;
+  color: #f3f3f3;
+  border-top: 4px solid darkgrey;
+}
+
+/* SECTION-4 */
+
+.sec-ft {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+  background: #070000;
+  border-top: 4px solid red;
+}
+
+.ft-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  flex: 1;
+  text-align: center;
+  color: #f3f3f3;
+}
+
+.ft-img {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+  background: url(../img/KIDs.png) center center/cover;
+  /* max-height: 50%; */
+  /* margin: auto; */
+}
+
+/* LIST SECTION */
+
+#section6 {
+  display: flex;
+  flex-direction: row;
+  background: #070000;
+  list-style: none;
+  height: 40vh;
+  padding: 3rem 6rem;
+  border-top: 3px solid grey;
+  justify-content: space-evenly;
+  border-bottom: 3px solid red;
+
+  /* margin: auto; */
+}
+
+#section6 p {
+  color: grey;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+#section6 a {
+  color: gray;
+}
+
+.f-row li {
+  padding: 0.5rem;
+  /* margin-right: 8rem; */
+}
+
+.s-row li {
+  padding: 0.5rem;
+}
+
+.t-row li {
+  padding: 0.5rem;
+}
+
+.fth-row li {
+  padding: 0.5rem;
+}
